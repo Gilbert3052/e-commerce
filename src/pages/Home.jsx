@@ -27,9 +27,7 @@ const Home = () => {
             setFilterByText(products)
         }
     }, [input, products])
-
-    console.log(filterByText)
-    
+   
 
   return (
     <main className="Home">

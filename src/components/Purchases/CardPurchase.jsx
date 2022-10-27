@@ -2,8 +2,6 @@ import React from 'react'
 
 const CardPurchase = ({purchase}) => {
 
-    
-  console.log(purchase);
   return (
     <article className='CardPurchase'>
         <header>{purchase.createdAt}</header>

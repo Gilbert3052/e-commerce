@@ -30,8 +30,6 @@ const Login = () => {
         localStorage.removeItem("token")
         setIsLogged(false)
     }
-
-    console.log(isLogged);
     
 
     if(isLogged){
