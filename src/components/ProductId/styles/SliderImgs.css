@@ -1,0 +1,53 @@
+.slider {
+    padding: 20px 50px;
+    position: relative;
+    max-width: max-content;
+    max-width: 450px;    
+}
+.slider__static {
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+}
+.slider__move {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    transition: transform 500ms ease;
+}
+
+.img__slider-container {
+    padding: 20px;
+    width: calc(100% / 3);
+    height: 400px;
+}
+
+.img__slider{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* --- Buttons --- */
+
+.slider__prev,
+.slider__next {
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: rgb(234, 105, 96);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    transform: translateY(50%);
+}
+
+.slider__prev {
+    left: 5px;
+}
+
+.slider__next {
+    right: 5px;
+}

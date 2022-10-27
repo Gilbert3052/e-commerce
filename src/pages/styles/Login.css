@@ -1,0 +1,27 @@
+.Logout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsla(0,1%,72%,.1);
+}
+
+.logout__container {
+    width: 400px;
+    height: 220px;
+    padding: 50px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: 
+    space-evenly;
+    align-items: center;
+}
+
+.logout__button {
+    cursor: pointer;
+    color: lightskyblue;
+    background: transparent;
+}
