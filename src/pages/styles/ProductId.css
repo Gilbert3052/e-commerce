@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 1rem;
+    padding-top: 2rem;
 }
 
 .GoBack-container {

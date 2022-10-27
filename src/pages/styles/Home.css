@@ -1,3 +1,6 @@
+.Home {
+    padding-top: 2rem;
+}
 .home__container {
     display: flex;
     flex-wrap: wrap;
